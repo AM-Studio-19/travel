@@ -1,1 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* 自定義全域樣式 */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F7F4EB; /* 與 App 主題色一致 */
+}
